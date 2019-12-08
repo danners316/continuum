@@ -148,10 +148,10 @@ a.navbar-brand img {
 .one, .two, .three{
   
   background-color:#fff;
-  padding:2%;
+  padding: 4% 2%;
   margin-right:2.5%;
   float:left;
-  height:450px;
+  height:460px;
   position:relative;
   
 }
@@ -179,7 +179,7 @@ a.navbar-brand img {
 
 .columns button{
   position:absolute;
-  bottom:10px;
+  bottom:20px;
   left: 50%;
   transform: translateX(-50%);
   background-color:#000;
@@ -231,8 +231,8 @@ a.navbar-brand img {
 
 .news .one,
 .news .three{
-  color:#000;
-  background-color:#4d7ed4;
+  color:#fff;
+  background-color:#000;
   background-image:url('opaque1.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -247,7 +247,7 @@ a.navbar-brand img {
 
 .news .two{
   background-color:#4d7ed4;
-  color:#000;
+  color:#fff;
 }
 
 .news .two button{
@@ -257,7 +257,7 @@ a.navbar-brand img {
 
 .overlay{
   width:100%;
-  height:80px;
+  height:90px;
   background-color:#4d7ed4;
   opacity:0.8;
   position:absolute;
@@ -402,9 +402,6 @@ body{
 
 @media screen and (max-width: 880px){
   
-body{
-  font-size:0.7em;
-}
 
 .columns button{
   position:static;
@@ -450,8 +447,8 @@ body{
 .opaque_board, .banner_block h1, .banner_block p, .columns .inner{
   width:90%;
 }
-  
-  
+.one, .two, .three {
+    padding: 6% 2%;
 }
 
 
