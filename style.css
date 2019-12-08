@@ -1,0 +1,460 @@
+/* STYLESHEET */
+
+
+
+body{
+  font-family: 'PlantinMTStd-Light',Georgia,Times New Roman,serif;
+}
+
+h1, h2{
+    font-family: 'PlantinMTStd-Semibold',Georgia,Times New Roman,serif;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom:20px;
+    
+}
+
+.center{
+  text-align:center;
+}
+
+.upcase{
+  text-transform:uppercase;
+}
+
+.navigation{
+  display:block;
+  width:90%;
+  margin:0 auto;
+}
+
+a.navbar-brand img {
+    width: 250px;
+    position: relative;
+    left: -55px;
+}
+
+.topnav{
+  position:relative;
+  padding:20px 0;
+  
+}
+
+.topnav form{
+  position:absolute;
+  top:20px;
+  right:0;
+}
+
+.topnav ul{
+  position:absolute;
+  top:20px;
+  left:0;
+  padding:0;
+}
+
+
+.topnav ul li{
+  display:inline;
+  padding-right:10px;
+}
+
+.navbar{
+  
+  padding: .5rem 0;
+}
+
+.banner_block{
+  width:100%;
+  max-height:350px;
+  margin:0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top:50px;
+  
+  
+}
+
+.opaque_board{
+    width: 50%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.banner_block h1{
+  font-size:2em;
+}
+
+.banner_block p{
+  font-size:1.2em;
+}
+
+.banner_block h1, .banner_block p{
+  text-align:center;
+  color:#fff;
+  position:relative;
+  top:-150px;
+  width: 50%;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+
+.banner_block.block_one{
+  background-image:url('city1.jpeg');
+}
+
+.banner_block.block_two{
+  background-image:url('city3.jpeg');
+}
+
+.banner_block.block_three{
+  background-image:url('city2.jpg');
+}
+
+
+
+
+
+
+
+
+
+.columns{
+  
+  padding:50px 0;
+  background-color:#CCC;
+}
+
+.inner{
+  width:1260px;
+  margin:0 auto;
+  background-color:#CCC;
+  overflow:auto;
+  
+}
+
+.one, .two, .three{
+  
+  background-color:#fff;
+  padding:2%;
+  margin-right:2.5%;
+  float:left;
+  height:450px;
+  position:relative;
+  
+}
+  
+
+
+.one {
+  
+  width:40%;
+  
+}
+
+.two{
+  
+  width:25%;
+  
+}
+
+.three{
+  
+  width:30%;
+  margin-right:0;
+  
+}
+
+.columns button{
+  position:absolute;
+  bottom:10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color:#000;
+  color:#fff;
+  width: auto;
+  display: block;
+  padding: 10px 20px;
+  text-align:center;
+  font-size: 1.2rem;
+  border:none;
+  cursor:pointer;
+}
+
+.two button{
+  
+  left:20px;
+  
+}
+
+.services .one{
+  margin-right:0;
+  
+}
+
+.services .two{
+  width:27.5%;
+  padding:2%;
+  background-color:#4d7ed4;
+  background-image:url('opaque1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.news h1{
+  
+  border-bottom:5px solid #4d7ed4;
+  padding-bottom:15px;
+  font-family: 'PlantinMTStd-SemiboldIt',Georgia,Times New Roman,serif;
+}
+
+.news .two{
+  font-size:0.9em;
+}
+
+.news .two h1{
+  border-bottom:none;
+}
+
+.news .one,
+.news .three{
+  color:#000;
+  background-color:#4d7ed4;
+  background-image:url('opaque1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.news button{
+  background-color:transparent;
+  border:1px solid #fff;
+  z-index:2;
+}
+
+.news .two{
+  background-color:#4d7ed4;
+  color:#000;
+}
+
+.news .two button{
+  left:20px;
+  transform:none;
+}
+
+.overlay{
+  width:100%;
+  height:80px;
+  background-color:#4d7ed4;
+  opacity:0.8;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:1;
+}
+
+.outer{
+  width:100%;
+  position:relative;
+}
+
+.view_portfolio{
+  
+  width:1260px;
+  margin:20px auto 0 auto;
+  
+}
+
+.view_portfolio p{
+  
+  font-size:2em;
+  
+}
+
+.portfolios{
+  
+  width:1260px;
+  margin:0 auto;
+  background-color:#fff;
+  overflow:auto;
+  padding:50px 0;
+  display: -webkit-flex; /* Safari */
+  -webkit-justify-content: center; /* Safari 6.1+ */
+  display: flex;
+  justify-content: center;
+  
+}
+
+.portfolios_title{
+  display:block;
+  padding:20px 0;
+}
+
+.item{
+  float:left;
+  height:200px;
+  border:1px solid #000;
+  margin:0 2px;
+  display: flex !important;
+  width:98% !important;
+  /* To Override Slick default style*/
+  align-items: center;
+  justify-content: center
+}
+
+.item img{
+  width:50%;
+}
+
+.banner .slick-prev:before,.banner .slick-next:before {
+    color:white;
+    
+}
+
+.portfolios .slick-prev:before,.portfolios .slick-next:before {
+    color:#000;
+    
+}
+
+.slick-prev:before {
+    content: "\f104";
+     font: 40px/1 'FontAwesome';
+    
+}
+
+.slick-next:before {
+    content: "\f105";
+     font: 40px/1 'FontAwesome';
+    
+}
+
+.slick-prev, .slick-next{
+  position:absolute;
+  z-index:1;
+  
+}
+
+.slick-prev{
+  top:50 !important;
+  left:15px !important;
+}
+
+.slick-next{
+  top:50 !important;
+  right:15px !important;
+}
+
+
+
+
+@media (max-width:545px){
+  
+  .topnav form, .topnav ul{
+    
+    position:static;
+    
+  }
+  
+}
+
+
+@media screen and (max-width: 1320px){
+  
+body{
+  font-size:0.9em;
+}
+  
+  .inner{
+  width:90%;
+  
+}
+
+.portfolios, .view_portfolio{
+  
+  width:90%;
+  
+}
+
+@media screen and (max-width: 1000px){
+  
+.columns button{
+  font-size: 1rem;
+}
+
+body{
+  font-size:0.8em;
+}
+  
+}
+
+@media screen and (max-width: 880px){
+  
+body{
+  font-size:0.7em;
+}
+
+.columns button{
+  position:static;
+  transform: none;
+  margin:10px auto 0 auto;
+  text-align:center;
+}
+
+.overlay{
+  display:none;
+}
+
+.item img{
+  width:40%;
+}
+
+.columns .inner{
+  width:60%;
+}
+
+
+.one, .two, .three{
+  
+  display:block;
+  width:100%;
+  margin:10px 0;
+  height:auto;
+  
+  
+}
+
+.services .two{
+  width:100%;
+  height: 250px;
+  margin:0;
+  
+}
+  
+}
+
+@media screen and (max-width: 680px){
+  
+.opaque_board, .banner_block h1, .banner_block p, .columns .inner{
+  width:90%;
+}
+  
+  
+}
+
+
+
+
+  
